@@ -17,14 +17,14 @@
             <Font name="System Bold" size="39.0" />
          </font>
       </Label>
-      <TableView layoutX="46.0" layoutY="125.0" prefHeight="200.0" prefWidth="501.0">
+      <TableView fx:id="tblCustomer" layoutX="46.0" layoutY="125.0" prefHeight="200.0" prefWidth="501.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="ID" />
-          <TableColumn prefWidth="137.33334350585938" text="Name" />
-            <TableColumn prefWidth="182.0" text="Address" />
-            <TableColumn prefWidth="106.0" text="Salary" />
+          <TableColumn fx:id="colId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colName" prefWidth="137.33334350585938" text="Name" />
+            <TableColumn fx:id="colAddress" prefWidth="182.0" text="Address" />
+            <TableColumn fx:id="colSalary" prefWidth="106.0" text="Salary" />
         </columns>
       </TableView>
-      <Button layoutX="274.0" layoutY="346.0" mnemonicParsing="false" text="Reload" />
+      <Button layoutX="274.0" layoutY="346.0" mnemonicParsing="false" onAction="#btnReloadOnAction" text="Reload" />
    </children>
 </AnchorPane>
