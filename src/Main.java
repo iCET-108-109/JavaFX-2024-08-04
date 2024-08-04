@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/add_customer_form.fxml"))));
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("view/dash_form.fxml"))));
         primaryStage.show();
         primaryStage.setResizable(true);
         primaryStage.setTitle("Add Customer Form");
